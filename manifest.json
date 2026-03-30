@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "unityroom Extensions",
+  "version": "1.0.0",
+  "description": "unityroomの評価値を数値でコピー＆WebGLビルドのフォルダ一括アップロード",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://unityroom.com/games/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
