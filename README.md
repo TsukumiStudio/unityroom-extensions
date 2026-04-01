@@ -1,5 +1,7 @@
 # unityroom Extensions
 
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/onlbebcejdaipbgljapbhkklahphapef)](https://chromewebstore.google.com/detail/unityroom-extensions/onlbebcejdaipbgljapbhkklahphapef)
+
 [unityroom](https://unityroom.com/) の便利機能を追加するChrome拡張機能です。
 
 ## 機能
@@ -10,29 +12,11 @@
 
 ### WebGLフォルダ一括アップロード
 
-WebGLアップロードページに、Buildフォルダをドラッグ＆ドロップまたはクリックで選択するだけで、4つのファイル（`.loader.js`, `.framework.js.gz`, `.data.gz`, `.wasm.gz`）を自動で各入力欄に振り分けます。
+WebGLアップロードページで、Buildフォルダをドラッグ＆ドロップまたはクリックで選択するだけで、4つのファイル（`.loader.js`, `.framework.js.gz`, `.data.gz`, `.wasm.gz`）を自動で各入力欄に振り分けます。
 
 ## インストール
 
-### Chrome Web Store
-
-(準備中)
-
-### 手動インストール
-
-1. このリポジトリをクローンまたはダウンロード
-2. Chromeで `chrome://extensions` を開く
-3. 右上の「デベロッパーモード」をONにする
-4. 「パッケージ化されていない拡張機能を読み込む」をクリック
-5. このフォルダを選択
-
-## アイコン
-
-`icons/` フォルダに以下のサイズのPNG画像を配置してください：
-
-- `icon16.png` (16x16)
-- `icon48.png` (48x48)
-- `icon128.png` (128x128)
+[Chrome Web Store](https://chromewebstore.google.com/detail/unityroom-extensions/onlbebcejdaipbgljapbhkklahphapef) からインストールできます。
 
 ## ライセンス
 
